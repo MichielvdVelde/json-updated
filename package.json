@@ -1,9 +1,10 @@
 {
   "name": "json-updated",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Michiel van der Velde <michiel@michielvdvelde.nl>",
   "homepage": "https://github.com/MichielvdVelde/json-updated",
   "license": "MIT",
+  "main": "updated.js",
   "keywords": [
     "json",
     "stringify",
