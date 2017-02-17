@@ -1,4 +1,22 @@
 /**
+ * Returns true if the input is an object
+ * @param  {mixed}  obj Object to test
+ * @return {Boolean}     True if the input is an object
+ */
+exports.isObject = function (obj) {
+  return obj === Object(obj)
+}
+
+/**
+ * Returns true if the input is a string
+ * @param  {mixed}  str String to test
+ * @return {Boolean}     True if the input is a string
+ */
+exports.isString = function (str) {
+  return Object.prototype.toString.call(str) === '[object String]'
+}
+
+/**
  * Parse a string to JSON
  * @param  {string} str String to parse
  * @return {Promise}     Promise which resolves with the parsed JSON
