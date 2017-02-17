@@ -35,6 +35,17 @@ updatedJSON.parse('{ "some": "string" }').then(obj => {
 })
 ```
 
+This module now also ships with two simple methods for checking variable type.
+Both methods return a boolean:
+
+```js
+// Check if an input is an object
+updatedJSON.isObject(obj)
+
+// Check if an input is a string
+updatedJSON.isString(str)
+```
+
 ### License
 
 Copyright 2016 [Michiel van der Velde](http://www.michielvdvelde.nl).
